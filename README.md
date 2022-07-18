@@ -17,6 +17,8 @@ Your task is to implement Agent & Simulation classes, which drive decisions when
 
 ![image](https://user-images.githubusercontent.com/13545172/179607080-f72f2def-e7a5-4ab4-af84-7368722af941.png)
 
+Hint: While the simulation is running, press 'X' to lock the camera on another (alive) runner, 'C' to change Camera mode (3rd person or bird view), and 'Q' to kill all alive runners.
+
 ## Agent Class
 
 In the example above, a random RL Agent is implemented. When an episode starts, `Agent` will receive `Runner` object via `AssignRunner()` method. This is the runner which the agent will be driving **within this episode**. `Agent` objects are created at the beginning of the simulation and are kept throughout the entire simulation (i.e. same objects are used across all episodes). At the start of **every episode**, new `Runner` objects are created, and are distributed to `Agent` objects this way, thus `AssignRunner()` method is called once per episode.
