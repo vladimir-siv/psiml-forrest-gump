@@ -1,6 +1,6 @@
 # Forrest Gump for PSI:ML
 
-This repository represents Forrest Gump simulation for training RL Agents to successfully steer within corridors (pathways).
+This repository represents Forrest Gump simulation for training RL Agents to successfully steer within corridors (pathways). You can also download a Hyper-V VM with everything installed [here](https://store8.gofile.io/download/direct/50e8a1e6-6d99-4b97-babd-65b59a5d11ee/PSIML-RL.rar).
 
 Prerequisites:
 * [Visual Studio 2022](https://visualstudio.microsoft.com/) w/ Unity Development Toolkit
