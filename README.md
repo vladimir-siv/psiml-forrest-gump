@@ -35,7 +35,7 @@ Method `EpisodeStart()` is called at the beginning of every episode. Method `Run
 
 In order to implement evolution based neural training, you can use Grand Intelligence API. To start using it, at the beginning of the file, add:
 
-`using GrandIntelligence`
+`using GrandIntelligence;`
 
 Proposed way to implement RL agents is to use basic NeuroEvolution technique. This includes usages of `BasicBrain` which consists of Neural Networks with Fully Connected layers and Darwin Basic Genetic Evolution Algorithm `DarwinBgea`, which implies that every neural network is of the same structure within the population.
 
@@ -138,6 +138,7 @@ evolution.Cycle();
 ```
 
 Now, using `evolution.Current` will yield with new population of new individuals which were created based on the previous generation, using the specified algorithms.
+NOTE: Once you are done with the algorithm, use `evolution.Dispose();` (usually at the end of the simulation).
 
 To access the Neural Network of a `BasicBrain`, use:
 
