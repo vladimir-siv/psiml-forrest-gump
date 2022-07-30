@@ -142,7 +142,7 @@ Now, using `evolution.Current` will yield with new population of new individuals
 To access the Neural Network of a `BasicBrain`, use:
 
 ```
-NeuralNetwork nn1 = brain1.NeutalNetwork;
+NeuralNetwork nn1 = brain1.NeuralNetwork;
 
 // To transfer inputs to the Neural Network
 float[] inputs = new float[7];
